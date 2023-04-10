@@ -1,4 +1,4 @@
 @echo off
-start bauxvirus.bat
+start fauxfirus1.bat
 start bluescreen.html
 exit
