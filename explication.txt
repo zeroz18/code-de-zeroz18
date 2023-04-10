@@ -1,0 +1,1 @@
+J'ai codé le luncher et le faux virus (en gros le bat)autrement pour le blue screen voici le lien https://github.com/obertguo/BSOD
