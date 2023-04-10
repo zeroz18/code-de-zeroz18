@@ -1,0 +1,81 @@
+html, body {
+    background: #010082;
+    padding-top:50px;
+    display: block;
+}
+
+*{
+    font-family: courier;
+    margin:0 auto;
+    white-space: nowrap;
+    color:#fff;
+    overflow-x: hidden;
+}
+
+.wrap{
+
+}
+
+
+p{
+color:#fff;
+text-align: left; 
+    margin:0 auto;
+    display: inline-block;
+}
+
+.windows > p{
+    color:#010082;
+    background: #fff;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: bold;
+    padding:2px 8px;
+    width:73px;
+    right:300px;
+}
+
+.centerwrap{
+    right:-100px;
+    width:100%;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blink_text {
+font-size: 18px;
+    
+animation:0.5s blinker linear infinite;
+-webkit-animation:0.5s blinker linear infinite;
+-moz-animation:0.5s blinker linear infinite;
+
+ color: #fff;
+}
+
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
